@@ -4,3 +4,7 @@ wn.title("Ping-Pong")
 wn.bgcolor("red")
 wn.setup(width=800, height=600)
 wn.tracer(0)
+
+# Main game loop
+while True:
+  wn.update()
